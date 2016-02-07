@@ -44,19 +44,20 @@ module.exports = function (grunt) {
        },
        ]        
       } 
-    /*  
+    }, 
     uglify: {
-      options: {
-        banner: '/*! <%= pkg.name %> lib - v<%= pkg.version %> -' +
-          '<%= grunt.template.today("yyyy-mm-dd") %> */ //'
-      /*},*/
-    }
+    	js_files : {
+	    	files: {
+	        	'<%= config.dist %>/js/script.min.js' : ['<%= config.dist %>/js/script.js']
+	      	}    		
+	    }
+  	}
   });
 
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-uglify');
 
-  grunt.registerTask('dist', ['copy:dist']);
+  grunt.registerTask('dist', ['copy:dist', 'uglify']);
   grunt.registerTask('init', ['copy:init']);
 
   grunt.registerTask('default', ['init', 'dist']);
