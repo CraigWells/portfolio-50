@@ -40,4 +40,4 @@ The console will echo the following message:
 
 index.html is not copied from src to dist, it is assumed the developer will match any changes in src/index.html manually. The reason for this is twofold:
 - The application uses script.js in src and script.min.js in dist
-- The html base tag in the index.htnl file references localhost:8081 in src and 8080 in dist
+- The html base tag in the index.html file references localhost:8081 in src and 8080 in dist
