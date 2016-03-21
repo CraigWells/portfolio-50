@@ -29,13 +29,7 @@ module.exports = function (grunt) {
           cwd: '<%= config.node %>/angular-route',
           src: ['angular-route.min.js'],
           dest: '<%= config.src %>/libs'
-      },
-      {
-          expand: true,
-          cwd: '<%= config.node %>/angular-animate',
-          src: ['angular-animate.min.js'],
-          dest: '<%= config.src %>/libs'
-       }
+        }
        ]        
       } 
     }, 
