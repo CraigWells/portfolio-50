@@ -1,11 +1,12 @@
-<div class="jumbotron text-center">
+﻿<div class="jumbotron text-center">
     <h1>HOME</h1>
 
     <p>{{ tagline }}</p>
 </div>
-<projects></projects>
-<a href="projects/project1">Project 1</a> |
-<a href="projects/project2">Project 2</a> |
-<a href="projects/project3">Project 3</a> |
-<a href="projects/project4">Project 4</a> |
-<a href="projects/project5">Project 5</a>
+<div class="row">
+	<div ng-repeat="p in home.projects">
+		<div class="col-xs-6 col-sm-3">
+			<a ng-href="projects/{{p.id}}">{{p.name}}</a>
+		</div>
+	</div>	
+</div>

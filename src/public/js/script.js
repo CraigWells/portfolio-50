@@ -1,11 +1,26 @@
-(function(angular) {
+﻿(function(angular) {
   'use strict';
 var app = angular.module('portfolioApp', ['ngRoute']);
 
 app.service('projectsService', function(){
-      return (function(){
-              console.log("SERVICE PLEASE!!!");
-      })(); 
+      return [
+          {
+              name : "Project 1",
+              id : "project1"
+          },
+          {
+              name : "Project 2",
+              id : "project2"
+          },           
+          {
+              name : "Project 3",
+              id : "project3"
+          },          
+          {
+              name : "Project 4",
+              id : "project4"
+          }
+      ];
  });
 
 app.config(['$routeProvider', '$locationProvider',
