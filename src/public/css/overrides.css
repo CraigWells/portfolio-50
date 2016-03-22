@@ -1,0 +1,9 @@
+﻿.col-xs-6{
+	border:1px solid;
+}
+
+#projects-container{
+	padding-left: 10%;
+	padding-right: 10%;
+	border: 1px solid red;
+}

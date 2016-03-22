@@ -1,12 +1,15 @@
-﻿<div class="jumbotron text-center">
-    <h1>HOME</h1>
-
-    <p>{{ tagline }}</p>
-</div>
-<div class="row">
-	<div ng-repeat="p in home.projects">
+﻿<div class="container-fluid" id="projects-container">
+	<div class="row">
 		<div class="col-xs-6 col-sm-3">
-			<a ng-href="projects/{{p.id}}">{{p.name}}</a>
+			<a ng-href="about">About</a>
 		</div>
-	</div>	
-</div>
+		<div ng-repeat="p in home.projects">
+			<div class="col-xs-6 col-sm-3" back-img="{{p.img}}">
+				<a ng-href="projects/{{p.id}}">{{p.name}}</a>
+			</div>
+		</div>	
+		<div class="col-xs-6 col-sm-3">
+			craigwells.xyx
+		</div>
+	</div>
+</div>	

@@ -6,19 +6,53 @@ app.service('projectsService', function(){
       return [
           {
               name : "Project 1",
-              id : "project1"
+              id : "project1",
+              img: "placeholder.png"
           },
           {
               name : "Project 2",
-              id : "project2"
+              id : "project2",
+              img: "placeholder.png"
           },           
           {
               name : "Project 3",
-              id : "project3"
+              id : "project3",
+              img: "placeholder.png"
           },          
           {
               name : "Project 4",
-              id : "project4"
+              id : "project4",
+              img: "placeholder.png"
+          },         
+          {
+              name : "Project 5",
+              id : "project5",
+              img: "placeholder.png"
+          },          
+          {
+              name : "Project 6",
+              id : "project6",
+              img: "placeholder.png"
+          },          
+          {
+              name : "Project 7",
+              id : "project7",
+              img: "placeholder.png"
+          },          
+          {
+              name : "Project 8",
+              id : "project8",
+              img: "placeholder.png"
+          },          
+          {
+              name : "Project 9",
+              id : "project9",
+              img: "placeholder.png"
+          },          
+          {
+              name : "Project 10",
+              id : "project10",
+              img: "placeholder.png"
           }
       ];
  });
@@ -87,5 +121,14 @@ app.config(['$routeProvider', '$locationProvider',
       templateUrl: 'views/content.html'
     }
  });
+/*
+  app.directive('backImg', function(){
+    return function(scope, element, attrs){
+        var url = 'img/'+attrs.backImg;
+        element.css({
+            'background-image': 'url(' + url +')'
+        });
+    };
+});​*/
 
 })(window.angular);
