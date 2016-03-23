@@ -1,15 +1,11 @@
 ﻿<div class="container-fluid" id="projects-container">
-	<div class="row">
-		<div class="col-xs-6 col-sm-3">
+		<div class="col-xs-6 col-sm-3 pro-cont">
 			<a ng-href="about">About</a>
 		</div>
-		<div ng-repeat="p in home.projects">
-			<div class="col-xs-6 col-sm-3" back-img="{{p.img}}">
-				<a ng-href="projects/{{p.id}}">{{p.name}}</a>
-			</div>
-		</div>	
-		<div class="col-xs-6 col-sm-3">
+		<div ng-repeat="p in home.projects"class="col-xs-6 col-sm-3 pro-cont" back-img="{{p.img}}">
+			<a ng-href="projects/{{p.id}}">{{p.name}}</a>
+		</div>
+		<div class="col-xs-6 col-sm-3 pro-cont">
 			craigwells.xyx
 		</div>
-	</div>
 </div>	

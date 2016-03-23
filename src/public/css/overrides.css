@@ -2,8 +2,17 @@
 	border:1px solid;
 }
 
+.pro-cont{
+	height:20%;
+}
+
+.pro-cont-100{
+	height:100%;
+}
+
 #projects-container{
 	padding-left: 10%;
 	padding-right: 10%;
 	border: 1px solid red;
+	height:100vh;
 }
