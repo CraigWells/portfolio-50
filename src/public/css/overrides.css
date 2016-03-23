@@ -10,6 +10,11 @@
 	height:100%;
 }
 
+.projects-wrapper{
+	height:86%;
+	margin-top:14%;
+}
+
 #projects-container{
 	padding-left: 10%;
 	padding-right: 10%;
