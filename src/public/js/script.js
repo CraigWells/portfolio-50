@@ -121,14 +121,16 @@ app.config(['$routeProvider', '$locationProvider',
       templateUrl: 'views/content.html'
     }
  });
-/*
-  app.directive('backImg', function(){
+
+app.directive('backImg', function(){
     return function(scope, element, attrs){
-        var url = 'img/'+attrs.backImg;
-        element.css({
-            'background-image': 'url(' + url +')'
+        attrs.$observe('backImg', function(value) {
+            element.css({
+                'background-image': 'url(img/' + value +')',
+                'background-size' : 'cover'
+            });
         });
     };
-});​*/
+});
 
 })(window.angular);

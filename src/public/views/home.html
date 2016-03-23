@@ -2,8 +2,10 @@
 		<div class="col-xs-6 col-sm-3 pro-cont">
 			<a ng-href="about">About</a>
 		</div>
-		<div ng-repeat="p in home.projects"class="col-xs-6 col-sm-3 pro-cont" back-img="{{p.img}}">
-			<a ng-href="projects/{{p.id}}">{{p.name}}</a>
+		<div ng-repeat="p in home.projects"class="col-xs-6 col-sm-3 pro-cont">
+			<div class="project-img" back-img="{{p.img}}"/>
+				<a ng-href="projects/{{p.id}}">{{p.name}}</a>
+			</div>	
 		</div>
 		<div class="col-xs-6 col-sm-3 pro-cont">
 			craigwells.xyx
