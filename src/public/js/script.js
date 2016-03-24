@@ -121,14 +121,14 @@ app.config(['$routeProvider', '$locationProvider',
       templateUrl: 'views/content.html'
     }
  }).directive('backImg', function(){
-    return function(scope, element, attrs){
-        attrs.$observe('backImg', function(value) {
-            element.css({
-                'background-image': 'url(img/' + value +')'//,
-                //'background-size' : 'cover'
-            });
-        });
-    };
-});
+      return function(scope, element, attrs){
+          attrs.$observe('backImg', function(value) {
+              element.css({
+                  'background-image': 'url(img/' + value +')',
+                  'background-size' : 'cover'
+              });
+          });
+      };
+  });
 
 })(window.angular);
