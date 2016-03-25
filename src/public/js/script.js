@@ -125,7 +125,8 @@ app.config(['$routeProvider', '$locationProvider',
           attrs.$observe('backImg', function(value) {
               element.css({
                   'background-image': 'url(img/' + value +')',
-                  'background-size' : 'cover'
+                  'background-size' : '140px 140px',
+                  'background-repeat' : 'no-repeat'
               });
           });
       };
