@@ -5,32 +5,32 @@ var app = angular.module('portfolioApp', ['ngRoute']);
 app.service('projectsService', function(){
       return [
           {
-              name : "Project 1",
+              name : "Graph Data",
               id : "project1",
               img: "placeholder.png"
           },
           {
-              name : "Project 2",
+              name : "Real Time Graphs",
               id : "project2",
               img: "placeholder.png"
           },           
           {
-              name : "Project 3",
+              name : "Canvas Draw",
               id : "project3",
               img: "placeholder.png"
           },          
           {
-              name : "Project 4",
+              name : "Responsive Graphs",
               id : "project4",
               img: "placeholder.png"
           },         
           {
-              name : "Project 5",
+              name : "Responsive Radial",
               id : "project5",
               img: "placeholder.png"
           },          
           {
-              name : "Project 6",
+              name : "Products Catalogue",
               id : "project6",
               img: "placeholder.png"
           },          
