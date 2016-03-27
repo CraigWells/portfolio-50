@@ -6,7 +6,7 @@ app.service('projectsService', function(){
       return [
           {
               name : "Graph Data",
-              id : "project1",
+              id : "graphdata",
               img: "placeholder.png"
           },
           {
