@@ -7,7 +7,7 @@ app.service('projectsService', function(){
           {
               name : "Graph Data",
               id : "graphdata",
-              img: "placeholder.png"
+              img: "sm_graph.jpg"
           },
           {
               name : "Real Time Graphs",
@@ -16,8 +16,8 @@ app.service('projectsService', function(){
           },           
           {
               name : "Canvas Draw",
-              id : "project3",
-              img: "placeholder.png"
+              id : "canvasdraw",
+              img: "pencil.png"
           },          
           {
               name : "Responsive Graphs",
