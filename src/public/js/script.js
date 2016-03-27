@@ -6,37 +6,37 @@ app.service('projectsService', function(){
       return [
           {
               name : "Graph Data",
-              id : "graphdata",
+              id : "graph-data",
               img: "sm_graph.jpg"
           },
           {
               name : "Real Time Graphs",
-              id : "project2",
+              id : "real-time-graphs",
               img: "placeholder.png"
           },           
           {
               name : "Canvas Draw",
-              id : "canvasdraw",
+              id : "canvas-draw",
               img: "pencil.png"
           },          
           {
               name : "Responsive Graphs",
-              id : "project4",
+              id : "responsive-graphs",
               img: "bar_graph.jpg"
           },         
           {
               name : "Responsive Radial",
-              id : "project5",
-              img: "placeholder.png"
+              id : "responsive-radial",
+              img: "radial.jpg"
           },          
           {
               name : "Products Catalogue",
-              id : "project6",
+              id : "products-catalogue",
               img: "placeholder.png"
           },          
           {
               name : "Skills Chart",
-              id : "project7",
+              id : "skills-chart",
               img: "placeholder.png"
           },          
           {
