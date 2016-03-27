@@ -22,7 +22,7 @@ app.service('projectsService', function(){
           {
               name : "Responsive Graphs",
               id : "project4",
-              img: "placeholder.png"
+              img: "bar_graph.jpg"
           },         
           {
               name : "Responsive Radial",
@@ -35,7 +35,7 @@ app.service('projectsService', function(){
               img: "placeholder.png"
           },          
           {
-              name : "Project 7",
+              name : "Skills Chart",
               id : "project7",
               img: "placeholder.png"
           },          
