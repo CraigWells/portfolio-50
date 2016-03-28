@@ -2,4 +2,6 @@
 <div>
   controller: {{demo.name}}<br />
   project Id: {{demo.id}}<br />
+  config : {{demo.project.config}}<br />
+  <graph ng-if="demo.project.config.directive.graph"></graph>
 </div>
