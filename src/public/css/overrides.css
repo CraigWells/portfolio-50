@@ -2,12 +2,17 @@
 	margin-top:12%;
 }
 
+.about-container{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
 .row-centered {
     text-align:center;
     max-width: 860px;
     float:none;
     margin: 0 auto;
-    margin-top:12%;
+   /* margin-top:12%;*/
 }
 .col-centered {
     display:inline-block;
@@ -32,6 +37,21 @@
     border-radius: 50%;
 	background-size : 140px 140px;
 	background-repeat : no-repeat;
+}
+
+.inline{
+    display:inline-block;
+}
+
+.spacer{
+    margin-left: 30px;
+}
+
+.align-wrapper {
+  font-size: 0;
+  letter-spacing: 0;
+  word-spacing: 0;
+  vertical-align: top;
 }
 
 .footer{
