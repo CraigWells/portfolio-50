@@ -1,7 +1,11 @@
-<a ng-href="/projects/{{demo.id}}">Back</a> 
+﻿<a ng-href="/projects/{{demo.id}}">Back</a> 
 <div>
-  controller: {{demo.name}}<br />
-  project Id: {{demo.id}}<br />
-  config : {{demo.project.config}}<br />
-  <graph ng-if="demo.project.config.directive.graph"></graph>
+	<div class="details">
+		controller: {{demo.name}}<br />
+		project Id: {{demo.id}}<br />
+		config : {{demo.project.config}}<br />
+	</div>
+	<div ng-if="demo.project.config.directive.graph">
+		<graphs></graphs>
+	</div>	
 </div>

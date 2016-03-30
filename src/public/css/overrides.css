@@ -54,6 +54,10 @@
   vertical-align: top;
 }
 
+.details{
+  display:none;
+}
+
 .footer{
 
 }
